@@ -1,5 +1,7 @@
 
 import React from 'react';
+import Python from './img/python.png'
+import ReactJS from './img/ReactJS.png'
 
 const About = () =>  {
   return (
@@ -21,8 +23,9 @@ const About = () =>  {
             
           {/* list all tech stack and pictures for each */}
           <div className="about-tech">
-              <h3>Front End: React.js, React Native, and HTML/CSS/JS</h3>
-              <h3>Back End: Python, Java, SQL.</h3>
+            <h2 className="tech-header">Technologies that I'm comfortable with</h2>
+              <h3>Back End: Python, SQL, Java</h3><img src={Python} alt='Python' className='techstack'></img>
+              <h3>Front End: React.js, React Native, and HTML/CSS/JS</h3><img src={ReactJS} alt='React.js' className='techstack'></img>
           </div>
     </div>
   );

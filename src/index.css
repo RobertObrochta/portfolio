@@ -21,11 +21,13 @@
 
   h1 {
     font-size: 250%;
-    padding-bottom: 1%
+    padding-bottom: 1%;
+    color: rgb(218, 216, 216);
   }
 
   h2{
-    font-size: 190%
+    font-size: 190%;
+    color: rgb(218, 216, 216);
   }
 
   h3 {
@@ -68,6 +70,15 @@
     padding:2% 2% 2% 0;
     line-height: 260%;
     border:solid
+  }
+
+  .techstack {
+    width: 10%;
+  }
+
+  .tech-header {
+    color: rgb(83, 84, 170);
+    padding-bottom: 2%
   }
 
   .wrapper {
@@ -230,6 +241,7 @@
     transition: all ease-in-out 225ms;
     opacity: 15%;
   }
+
 
   footer {
     display: inline-flex;
