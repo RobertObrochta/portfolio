@@ -160,7 +160,7 @@
   /* for mobile, make this the same color as selected. gets obfuscated */
   .afterclick:hover {
     color: rgb(78, 78, 78);
-    opacity: 80%;
+    opacity: 0.8;
     transition: all ease-in-out 225ms;
   }
 
@@ -172,7 +172,7 @@
 
   .selected:hover {
     color: rgb(218, 216, 216);
-    opacity: 80%;
+    opacity: 0.8;
     transition: all ease-in-out 225ms;
   }
 
@@ -185,8 +185,9 @@
   }
 
   #Experience{
-    margin-left: 2%;
+    padding-left: 2%;
     padding-top:2%;
+    background-color: rgb(63, 83, 87);
   }
 
   .exp-block{
@@ -298,7 +299,7 @@
   /* change scale?? */
   .linkedin:hover, .github:hover {
     transition: all ease-in-out 225ms;
-    opacity: 15%;
+    opacity: 0.15;
   }
 
 
