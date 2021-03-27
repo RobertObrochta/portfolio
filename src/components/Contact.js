@@ -15,7 +15,9 @@ function Contact() {
   if (state.succeeded) {
     // create a class for this so the section above doesn't droop down
       return (
-      <h1 classname='name' style={styles}>Message received! :)<br></br> I will be in touch shortly.</h1>);
+        <div id="Contact">
+      <h1 classname='name' style={styles}>Message received! :)<br></br> I will be in touch shortly.</h1>
+      </div>);
   }
   return (
     <div id="Contact" className="contact-form pageSpace">
@@ -51,6 +53,7 @@ function Contact() {
           name="message"
           required
         />
+        <h3>*Resume is available per request only. Please specify if you'd like a copy of my resume.</h3>
         <ValidationError 
           prefix="Message" 
           field="message"

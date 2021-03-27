@@ -16,10 +16,10 @@ const Experience = () =>  {
         <img src={Spotify} alt="Spotify" className="exp-image"></img>
         <div className="exp-overlay">
           <div className='exp-text'>
-          <h3>A program that takes your Spotify listening history and maps it into a neat node graph</h3>
+          <h3>A program that takes your Spotify listening history and maps it into a unique node graph</h3>
             <br></br>
             {/* These hrefs will be buttons */}
-            <a href="https://github.com/RobertObrochta/SpotifyMapping" target="_blank" rel="noreferrer nofollow">GitHub</a>
+            <button className="exp-btn"><h3><a href="https://github.com/RobertObrochta/SpotifyMapping" target="_blank" rel="noreferrer nofollow">GitHub</a></h3></button>
             </div>
         </div>
       </div>
@@ -32,8 +32,7 @@ const Experience = () =>  {
           <div className='exp-text'>
           <h3>Opens up Zoom link (or any URL) given a day of the week and a time (in 24 hour time). Executes that task weekly</h3>
             <br></br>
-            {/* These hrefs will be buttons */}
-            <a href="https://github.com/RobertObrochta/AutoZoom" target="_blank" rel="noreferrer nofollow">GitHub</a>
+            <button className="exp-btn"><h3><a href="https://github.com/RobertObrochta/AutoZoom" target="_blank" rel="noreferrer nofollow">GitHub</a></h3></button>
             </div>
         </div>
       </div>
