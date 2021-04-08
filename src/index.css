@@ -12,7 +12,7 @@
 /* desktop view */
 @media only screen and (min-width: 768px) {
   *:focus{
-    outline:solid lightblue;
+    outline:solid rgb(125, 187, 207);
   }
 
   body {
@@ -51,7 +51,8 @@
   .nav{
     display: block;
     text-align: right;
-    z-index: 999
+    z-index: 999;
+    font-size:100%
   }
 
   .chicago{
@@ -70,8 +71,10 @@
     padding-top: 3%;
     position: relative;
     line-height: 250%;
-    z-index: 1
+    z-index: 1;
+    height: 100vh
   }
+
 
   .about-words {
     max-width: 75%;
@@ -202,11 +205,12 @@
     padding-left: 2%;
     padding-top:2%;
     background-color: rgb(63, 83, 87);
+    height: 100vh
   }
 
   .exp-block{
     position: relative;
-    width: 50%;
+    width: 30%;
     border-radius: 0%;
   }
 
@@ -258,7 +262,7 @@
     transition: all ease 200ms;
     padding: 3% 6%;
     cursor: pointer;
-    margin-top:20%;
+    margin-top:5%;
     transform: scale(1.2);
   }
 
@@ -314,6 +318,12 @@
     font-size:160%;
     padding:7px;
     font-family: 'Oxygen', 'Poppins', sans-serif;
+    transition: all ease 200ms;
+  }
+
+  input:focus {
+    background-color: rgb(255, 255, 255);
+    transition: all ease 200ms;
   }
 
   textarea{
@@ -325,6 +335,12 @@
     font-size:160%;
     padding: 7px;
     font-family: 'Oxygen', 'Poppins', sans-serif;
+    transition: all ease 200ms;
+  }
+
+  textarea:focus{
+    background-color: rgb(255, 255, 255);
+    transition: all ease 200ms;
   }
 
   .github {
@@ -353,6 +369,7 @@
     bottom: 0;
     padding-bottom: 2vmin;
     left: 46%;
+    z-index: 999;
   }
 
 }
@@ -808,10 +825,4 @@
     left: 40%;
   }
 
-
-
-
-
-
 }
-

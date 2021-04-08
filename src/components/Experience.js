@@ -12,7 +12,7 @@ const Experience = () =>  {
     // mobile view will just be blocks of two (no carsousel)
     <div className="pageSpace" id="Experience">
       {/* SpotifyMapping */}
-      <div className="exp-block col1">
+      <div className="exp-block">
         <img src={Spotify} alt="Spotify" className="exp-image"></img>
         <div className="exp-overlay">
           <div className='exp-text'>
@@ -26,7 +26,7 @@ const Experience = () =>  {
       <h2 className="exp-name">SpotifyMapping</h2>
 
       {/* AutoZoom */}
-      <div className="exp-block col1">
+      <div className="exp-block">
         <video src={AutoZoom} alt="Spotify" className="exp-image" autoPlay="true" muted='true' loop='true'></video>
         <div className="exp-overlay">
           <div className='exp-text'>
