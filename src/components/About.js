@@ -5,18 +5,18 @@ const About = () =>  {
   return (
     <div className="pageSpace about-section" id="About">
       <div className="about-words">
-        <p>I'm a current third year undergraduate student at DePaul University in Chicago. 
-          I come from 2.5 years as a music education major, and recently moved fully to computer science. 
-          In the world of music, I'm fascinated with how different musical cultures interact with one another.</p>
+        <p>I am a third-year undergraduate student majoring in computer science at DePaul University in Chicago. I began my 
+          studies at DePaul as a music education major and am deeply fascinated with how different musical cultures interact 
+          with one another.</p>
           <br></br>
-          <p>In the world of computer science, I'm fascinated with the same concept of how people interact with each other,
-            but now in the world of technology. I see computer science as a tool that can help people immensely in many different aspects. 
-            During my computer science career, I have the goal of discovering the different ways that 
-            I can more effectively impact a broad audience. Computer science draws me in because I love the learning process, 
-            and there are just so many things to achieve in this field.</p>
+          <p>In the world of computer science, I am fascinated with a similar concept; a concept relating to how people 
+            interact with one another in this technologically-inclined world. Personally, I see computer science as a tool 
+            to help those in need across the various facets of life. As I delve deeper into computer science, my goal is to 
+            uncover the various methods which one can use to impact a broader audience. For me, the lure of computer science 
+            is not just the learning process; rather it is the many things which have yet to be uncovered.</p>
             <br></br>
-            <p>For my hobbies, I keep up with practicing trumpet and piano. I go on 10+ mile bike rides almost every day 
-              during the warmer months and am an avid nature-lover.</p>
+            <p>As for my hobbies, I continue to keep up with practicing trumpet and piano. I also enjoy going on daily bike 
+              rides, during the warmer months, and am an avid nature-lover.</p>
           </div>
             
           {/* list all tech stack */}

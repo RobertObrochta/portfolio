@@ -70,24 +70,27 @@
     color: rgb(218, 216, 216);
     padding-top: 3%;
     position: relative;
-    line-height: 250%;
+    line-height: 230%;
     z-index: 1;
     height: 100vh
   }
 
-
   .about-words {
-    max-width: 75%;
+    max-width: 90%;
     width: 65%;
     min-width: 55%;
     padding-left: 3%;
     padding-bottom: 2%;
+    position: absolute;
   }
 
   .about-tech{
+    bottom: 2%;
+    position: absolute;
     padding:1% 2% 2% 3%;
     line-height: 180%;
     background-color: rgb(82, 82, 82);
+    width: 95%
   }
 
   .inline{
@@ -385,17 +388,17 @@
   }
 
   h1 {
-    font-size: 6vmin;
+    font-size: 220%;
     padding-bottom: 1%;
   }
 
   h2{
-    font-size: 4vmin
+    font-size: 150%;
   }
 
   h3 {
     color: rgb(218, 216, 216);
-    font-size: 2.27vmin
+    font-size: 105%
   }
 
   ::selection {
@@ -411,16 +414,60 @@
     text-align: right;
     line-height: 8vmin;
     width: fit-content;
+    z-index: 999;
+  }
+
+  .chicago{
+    position: fixed;
+    width: 100%;
+    min-height: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -999;
   }
 
   .about-section {
+    background-color: rgb(51, 50, 50);
     color: rgb(218, 216, 216);
-    max-width: 900px;
-    width: 55%;
-    min-width: 55%;
-    padding-left: 20px;
+    padding-top: 3%;
     position: relative;
-    line-height: 6vmin;
+    line-height: 10%;
+    z-index: 1;
+    height: 220%
+  }
+
+
+  .about-words {
+    max-width: 75%;
+    width: 65%;
+    min-width: 55%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+  }
+
+  .about-tech{
+    padding:1% 2% 2% 3%;
+    line-height: 180%;
+    background-color: rgb(82, 82, 82);
+  }
+
+  .inline{
+    display:flex;
+    justify-content: space-between;
+    }
+
+  .within-space {
+    margin-left:0%;
+    list-style-type: none;
+  }
+
+  .tech-space {
+    margin: 0 6% 0 6%
+  }
+
+  .tech-header {
+    color: rgb(83, 84, 170);
+    padding-bottom: 1%
   }
 
   .wrapper {
@@ -597,6 +644,7 @@
     bottom: 0;
     padding-bottom: 2vmin;
     left: 40%;
+    z-index: 999;
   }
 
 }
@@ -616,12 +664,12 @@
   }
 
   h2{
-    font-size: 2.7vmin
+    font-size: 150%;
   }
 
   h3 {
     color: rgb(218, 216, 216);
-    font-size: 2.27vmin
+    font-size: 105%
   }
 
   ::selection {
@@ -637,16 +685,60 @@
     text-align: right;
     line-height: 8vmin;
     width: fit-content;
+    z-index: 999;
+  }
+
+  .chicago{
+    position: fixed;
+    width: 100%;
+    min-height: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -999;
   }
 
   .about-section {
+    background-color: rgb(51, 50, 50);
     color: rgb(218, 216, 216);
-    max-width: 900px;
-    width: 55%;
-    min-width: 55%;
-    padding-left: 20px;
+    padding-top: 3%;
     position: relative;
-    line-height: 6vmin;
+    line-height: 250%;
+    z-index: 1;
+    height: 100vh
+  }
+
+
+  .about-words {
+    max-width: 75%;
+    width: 65%;
+    min-width: 55%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+  }
+
+  .about-tech{
+    padding:1% 2% 2% 3%;
+    line-height: 180%;
+    background-color: rgb(82, 82, 82);
+  }
+
+  .inline{
+    display:flex;
+    justify-content: space-between;
+    }
+
+  .within-space {
+    margin-left:0%;
+    list-style-type: none;
+  }
+
+  .tech-space {
+    margin: 0 6% 0 6%
+  }
+
+  .tech-header {
+    color: rgb(83, 84, 170);
+    padding-bottom: 1%
   }
 
   .wrapper {
